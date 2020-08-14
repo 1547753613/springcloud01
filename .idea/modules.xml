@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud1.iml" filepath="$PROJECT_DIR$/spring-cloud1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-customer/springcloud-customer.iml" filepath="$PROJECT_DIR$/springcloud-customer/springcloud-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-product/springcloud-product.iml" filepath="$PROJECT_DIR$/springcloud-product/springcloud-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-productb/springcloud-productb.iml" filepath="$PROJECT_DIR$/springcloud-productb/springcloud-productb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-server/springcloud-server.iml" filepath="$PROJECT_DIR$/springcloud-server/springcloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-server2/springcloud-server2.iml" filepath="$PROJECT_DIR$/springcloud-server2/springcloud-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclound-server/springclound-server.iml" filepath="$PROJECT_DIR$/springclound-server/springclound-server.iml" />
+    </modules>
+  </component>
+</project>

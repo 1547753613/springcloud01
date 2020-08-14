@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api" />
+        <module name="spring-cloud1" />
+        <module name="springcloud-zuul" />
+        <module name="springcloud-product" />
+        <module name="springcloud-server" />
+        <module name="springclound-server" />
+        <module name="springcloud-productb" />
+        <module name="springcloud-server2" />
+        <module name="springcloud-customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud1" target="1.8" />
+      <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-customer" target="1.8" />
+      <module name="springcloud-product" target="1.8" />
+      <module name="springcloud-productb" target="1.8" />
+      <module name="springcloud-server" target="1.8" />
+      <module name="springcloud-server2" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
+      <module name="springclound-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-product" options="" />
+    </option>
+  </component>
+</project>

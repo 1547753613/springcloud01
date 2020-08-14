@@ -1,0 +1,25 @@
+server:
+  port: 8001
+
+
+spring:
+  application:
+    name: springcloud-server
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/world?useSSL=false&serverTimezone=UTC
+
+eureka:
+  instance:
+    hostname: eureka2
+  client:
+    # eureka会自动注册client，默认值是true,避免服务注册自己
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      # 没有提示，自己手写
+      defaultZone: http://eureka1:8002/eureka
+
+

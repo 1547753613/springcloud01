@@ -1,0 +1,32 @@
+server:
+  port: 5555
+
+spring:
+  application:
+    name: springcloud-zull
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/world?useSSL=false&serverTimezone=UTC
+
+eureka:
+  client:
+    # 服务路径：注册中心得路径，在当前路径得注册中心进行注册服务
+    service-url:
+      defaultZone: http://eureka1:8001/eureka,http://eureka2:8002/eureka
+  instance:
+    hostname: localhost
+
+zuul:
+  # 网关路由
+  routes:
+    # 路由组组名自己定义
+    porducta:
+      # 请求路径
+      path: /pta/**
+      # 服务名
+      serviceId: springcloud-producta
+    porductb:
+      path: /ptb/**
+      serviceId: springcloud-productb
